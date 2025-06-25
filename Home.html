@@ -17,6 +17,13 @@
         font-family: 'Poppins';
       }
 
+      header a {
+        background-color: aqua;
+      }
+
+      .contact p {
+        font-family: 'Franklin Gothic Medium';
+      }
       .home-title {
         font-size: 50px;
         margin: 0;
@@ -26,6 +33,39 @@
         margin-top: 5px;
       }
       
+      /* Add a black background color to the top navigation */
+.topnav {
+  display: flex;
+  justify-content: space-around; /* even spacing */
+  background-color: rgb(89, 152, 197); /* match your header */
+  padding: 10px 0;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  background-color: #04AA6D;
+  border-radius: 5px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid white; /* or any color you like */
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Change the color of links on hover */
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ddd;
+  color: black;
+}
     </style>
   </head>
 
@@ -33,6 +73,12 @@
     <header>
       <h1 class="home-title">SEA Catering</h1>
       <h2 class="home-slogan">“Healthy Meals, Anytime, Anywhere”</h2>
+      <div class="topnav">
+        <a class="active" href="">Home</a>
+        <a href="Menu.html">Menu</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">Subscription</a>
+      </div>
     </header>
     <div class="opening">
       <h3>Welcome to SEA Catering</h3>
