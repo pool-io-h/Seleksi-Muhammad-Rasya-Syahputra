@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>Menu</title>
+
+    <link rel="stylesheet" href="Styles/Header.css">
+    <style>
+
+      .product1 {
+        border: 5px, solid, black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px 20px 40px;
+      }
+
+      .container {
+       padding: 2px 16px;
+      }
+
+      .card{
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        border: 5px, solid, black;
+        border-radius: 20px;
+      }
+
+      .picture-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+        width: 100%;
+      }
+
+      .dietPlan{
+        width: 240px;
+        height: 160px;
+      }
+
+      .title-card{
+        font-size: 50px;
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 5px;
+      }
+
+      .content-card {
+        column-count: 2;      /* Number of columns */
+        column-gap: 40px;     /* Gap between columns */
+        list-style-position: inside;
+      }
+
+      .details {
+        padding: 10px 200px;
+        font-size: 20px;
+        margin-bottom: 10px ;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="home-title">SEA Catering</h1>
+      <h2 class="home-slogan">“Healthy Meals, Anytime, Anywhere”</h2>
+      <div class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="Menu.html" class="active">Menu</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Subscription.html">Subscription</a>
+        <a href="">Testimonials</a>
+      </div>
+    </header>
+    <div class="card">
+      <h2 class="title-card">Diet Plan</h2>
+      <p>Rp 30.000/Meal</p>
+      <div class="picture-card">
+        <img src="Images/Food-card-diet1.jpg" class="dietPlan">
+        <img src="Images/Food-card-diet2.jpg" class="dietPlan">
+        <img src="Images/food-card1.jpg" class="dietPlan">
+        <img src="Images/food-diet3.webp" class="dietPlan">
+        </div>
+        <p>Want to lose weight or just live healthier without giving up the taste of Indonesian food? This diet plan is designed especially for you! With local ingredients that are easy to find and filling menu options, you can say goodbye to restrictive eating and hello to a balanced, delicious, and sustainable way of reaching your health goals!</p>
+        <button class="details">More details</button>
+    </div>  
+
+    <div class="card">
+      <h2 class="title-card">Protein Plan</h2>
+      <p>Rp 40.000/Meal</p>
+      <div class="picture-card">
+        <img src="Images/food-protein1.avif" class="dietPlan">
+        <img src="Images/food-protein2.avif" class="dietPlan">
+        <img src="Images/food-protein3.jpg" class="dietPlan">
+        <img src="Images/food-protein4.jpg" class="dietPlan">
+        </div>
+        <p>Build muscle, stay full, and enjoy delicious Indonesian-inspired protein meals without bland diets! Packed with tempe, tahu, fish, eggs, and lean meats, this plan fuels workouts, boosts metabolism, and keeps cravings away.</p>
+        <button class="details">More details</button>
+    </div> 
+
+    <div class="card">
+      <h2 class="title-card">Royal Plan</h2>
+      <p>Rp 60.000/Meal</p>
+      <div class="picture-card">
+        <img src="Images/food-royal1.jpg" class="dietPlan">
+        <img src="Images/food-royal2.avif" class="dietPlan">
+        <img src="Images/food-royal3.jpeg" class="dietPlan">
+        <img src="Images/food-royal4.jpg" class="dietPlan">
+        </div>
+        <p>For those who believe that eating well should be an exquisite affair, this plan transforms everyday nourishment into a luxurious ritual. Inspired by the dining traditions of royalty, each carefully crafted meal is designed to delight the senses while providing exceptional nutrition.</p>
+        <button class="details">More details</button>
+    </div> 
+  </body>
+</html>
